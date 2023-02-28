@@ -28,9 +28,17 @@ public void get02(){
         // Step 2: Expected Data  (Ignored)
 
         // Step 3: Send a Request
-        Response response = given().
-        when().
-        get(URL);
+
+
+
+
+
+        Response response = given().when().get(URL);
+
+
+
+
+
 
         response.prettyPrint();  // prettyPrint()  -> like it syso
 
@@ -62,9 +70,7 @@ public void get02(){
         // Response body nasıl string bir ifadeye çevrilir?
         String responseBodyStr = response.asString();
         System.out.println("Response Body: "  + responseBodyStr);
-
         assertTrue(responseBodyStr.contains("Not Found"));  // Eğer assertTrue() nun içerisi TRUE return oluyorsa Testimiz PASS olmuş olur.
-
 
         // Test 4: Headers dan Via nın "1.1 vegur"
         //System.out.println("Butun Headers: " + response.getHeaders()); // Bütün headersları alabiliyoruz.
