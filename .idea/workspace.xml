@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api get">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseURLs/JsonPlaceHolderTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseURLs/SwapiApiBaseURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get08.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/DummyRestApiTestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +138,42 @@
       <option name="project" value="LOCAL" />
       <updated>1677683169030</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="api get">
+      <created>1677694790301</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694790301</updated>
+    </task>
+    <task id="LOCAL-00010" summary="api get">
+      <created>1677694805071</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694805071</updated>
+    </task>
+    <task id="LOCAL-00011" summary="api get">
+      <created>1677694817106</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694817106</updated>
+    </task>
+    <task id="LOCAL-00012" summary="api get">
+      <created>1677694828205</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694828205</updated>
+    </task>
+    <task id="LOCAL-00013" summary="api get">
+      <created>1677694838249</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677694838249</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
