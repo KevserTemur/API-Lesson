@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api get">
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseURLs/ApiZippopotamBaseURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPlaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPojos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JavaToJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="get03" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="get03" type="TestNG" nameIsGenerated="true">
       <module name="apiLesson" />
       <extension name="coverage">
         <pattern>
@@ -67,11 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.get03" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
