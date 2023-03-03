@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api get">
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/GoRestApiTestData.java" afterDir="false" />
+    <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api post">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/CryptoCurrencyPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/CustomerInfoPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyResTApiReqPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiExPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testData/BitPaceGetToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,12 +251,41 @@
       <option name="project" value="LOCAL" />
       <updated>1677829608243</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="api get">
+      <created>1677830007843</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677830007843</updated>
+    </task>
+    <task id="LOCAL-00026" summary="api post">
+      <created>1677830024347</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677830024347</updated>
+    </task>
+    <task id="LOCAL-00027" summary="api post">
+      <created>1677830036153</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677830036153</updated>
+    </task>
+    <task id="LOCAL-00028" summary="api post">
+      <created>1677830048193</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677830048193</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api get01" />
     <MESSAGE value="api get" />
-    <option name="LAST_COMMIT_MESSAGE" value="api get" />
+    <MESSAGE value="api post" />
+    <option name="LAST_COMMIT_MESSAGE" value="api post" />
   </component>
 </project>
