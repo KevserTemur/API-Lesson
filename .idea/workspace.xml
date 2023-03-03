@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api get">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseURLs/ApiZippopotamBaseURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPlaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPojos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JavaToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/get13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/GoRestCoApiPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/get12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/JavaToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonToJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,56 @@
       <option name="project" value="LOCAL" />
       <updated>1677694838249</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="api get">
+      <created>1677771590243</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771590243</updated>
+    </task>
+    <task id="LOCAL-00015" summary="api get">
+      <created>1677771608853</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771608853</updated>
+    </task>
+    <task id="LOCAL-00016" summary="api get">
+      <created>1677771622747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771622747</updated>
+    </task>
+    <task id="LOCAL-00017" summary="api get">
+      <created>1677771634945</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771634945</updated>
+    </task>
+    <task id="LOCAL-00018" summary="api get">
+      <created>1677771647768</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771647768</updated>
+    </task>
+    <task id="LOCAL-00019" summary="api get">
+      <created>1677771660492</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771660492</updated>
+    </task>
+    <task id="LOCAL-00020" summary="api get">
+      <created>1677771670974</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677771670974</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
