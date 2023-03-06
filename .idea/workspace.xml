@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api post">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/CryptoCurrencyPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/CustomerInfoPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyResTApiReqPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiExPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/BitPaceGetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseURLs/RestFullBookerHerOkuAppBaseURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/putRequest/Put01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/putRequest/Put02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +275,63 @@
       <option name="project" value="LOCAL" />
       <updated>1677830048193</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="api post">
+      <created>1677830999846</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677830999846</updated>
+    </task>
+    <task id="LOCAL-00030" summary="api post">
+      <created>1677831021120</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831021120</updated>
+    </task>
+    <task id="LOCAL-00031" summary="api post">
+      <created>1677831038111</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831038111</updated>
+    </task>
+    <task id="LOCAL-00032" summary="api post">
+      <created>1677831101758</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831101758</updated>
+    </task>
+    <task id="LOCAL-00033" summary="api post">
+      <created>1677831112659</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831112659</updated>
+    </task>
+    <task id="LOCAL-00034" summary="api post">
+      <created>1677831125884</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831125884</updated>
+    </task>
+    <task id="LOCAL-00035" summary="api post">
+      <created>1677831138279</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831138279</updated>
+    </task>
+    <task id="LOCAL-00036" summary="api post">
+      <created>1677831148074</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677831148074</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
