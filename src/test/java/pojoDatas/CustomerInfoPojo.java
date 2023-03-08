@@ -1,17 +1,16 @@
 package pojoDatas;
 
-        
 public class CustomerInfoPojo {
 
-        /*
-         "customer": {
-            "reference_id": "20625123425",  //merch.code
-            "first_name":"",
-            "last_name":"",
-            "email":"drakeF@gmail.com"
-        }
-         */
-        
+    /*
+     "customer": {
+        "reference_id": "20625123425",  //merch.code
+        "first_name":"",
+        "last_name":"",
+        "email":"drakeF@gmail.com"
+    }
+     */
+
     private String reference_id;
     private String first_name;
     private String last_name;
