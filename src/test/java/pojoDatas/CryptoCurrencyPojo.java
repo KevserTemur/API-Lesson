@@ -1,17 +1,18 @@
 package pojoDatas;
 
 public class CryptoCurrencyPojo {
+
     /*
-   {
-  "cryptocurrency": "BTC",
-  "customer": {
-      "reference_id": "20625123425",  //merch.code
-      "first_name":"",
-      "last_name":"",
-      "email":"drakeF@gmail.com"
-  }
+     {
+    "cryptocurrency": "BTC",
+    "customer": {
+        "reference_id": "20625123425",  //merch.code
+        "first_name":"",
+        "last_name":"",
+        "email":"drakeF@gmail.com"
+    }
 }
-   */
+     */
     private String cryptocurrency;
     private CustomerInfoPojo customer;
 
@@ -47,4 +48,3 @@ public class CryptoCurrencyPojo {
                 '}';
     }
 }
-
