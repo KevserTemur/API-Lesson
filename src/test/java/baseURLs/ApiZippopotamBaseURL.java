@@ -17,4 +17,6 @@ public class ApiZippopotamBaseURL {
                 setBaseUri("http://api.zippopotam.us").
                 build();
     }
+
+
 }
