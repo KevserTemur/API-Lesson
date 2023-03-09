@@ -3,11 +3,11 @@ package pojoDatas;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)  //org.codehaus.jackson.map.exc.UnrecognizedPropertyException: Unrecognized field "data" (Class pojoDatas.DummyResTApiReqPojo), not marked as ignorable
-//at [Source: java.io.StringReader@3a26ec8d; line: 3, column: 14] (through reference chain: pojoDatas.DummyResTApiReqPojo["data"])
+ //at [Source: java.io.StringReader@3a26ec8d; line: 3, column: 14] (through reference chain: pojoDatas.DummyResTApiReqPojo["data"])
 public class DummyRestApiExPojo {
 
-        
-        
+
+
         /*
          {
     "status": "success",
