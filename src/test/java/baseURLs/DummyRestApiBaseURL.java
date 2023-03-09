@@ -17,4 +17,6 @@ public class DummyRestApiBaseURL {
                 setBaseUri("https://dummy.restapiexample.com/api/v1").
                 build();
     }
+
+
 }
