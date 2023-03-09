@@ -1,19 +1,20 @@
 package pojoDatas;
+
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DummyRestApiPojo {
 
-        /*
-        {
-            "name": "Drake F.",
-                "salary": "40000",
-                "age": "27"
-        }
-    
-         */
-        
-        
+    /*
+    {
+        "name": "Drake F.",
+            "salary": "40000",
+            "age": "27"
+    }
+
+     */
+
+
     private String name;
     private String salary;
     private String age;
@@ -27,7 +28,7 @@ public class DummyRestApiPojo {
         this.age = age;
     }
 
-        
+
     public String getName() {
         return name;
     }
@@ -60,5 +61,4 @@ public class DummyRestApiPojo {
                 ", age='" + age + '\'' +
                 '}';
     }
-
 }
