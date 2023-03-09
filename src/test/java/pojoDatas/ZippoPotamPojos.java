@@ -2,6 +2,9 @@ package pojoDatas;
 
 public class ZippoPotamPojos {
 
+
+
+
     //Step 2: Set Expected Data
         /*
          {
@@ -20,22 +23,22 @@ public class ZippoPotamPojos {
 }
          */
 
-        
+
     //Step 1 : Private Var. Create et.
     private String postCode;
     private String country;
     private String countryAbbreviation;
     private ZippoPotamPlaces zippoPotamPlaces;
 
-        
-        //Step 2: Create a without paramter Constructor
-        
-        
+
+    //Step 2: Create a without paramter Constructor
+
+
     public ZippoPotamPojos() {
     }
 
-        //Step 3: Create a with paramter Constructor
-        
+    //Step 3: Create a with paramter Constructor
+
     public ZippoPotamPojos(String postCode, String country, String countryAbbreviation, ZippoPotamPlaces zippoPotamPlaces) {
         this.postCode = postCode;
         this.country = country;
@@ -43,8 +46,8 @@ public class ZippoPotamPojos {
         this.zippoPotamPlaces = zippoPotamPlaces;
     }
 
-        //Step 4: Getter and Setter
-        
+    //Step 4: Getter and Setter
+
     public String getPostCode() {
         return postCode;
     }
@@ -77,9 +80,9 @@ public class ZippoPotamPojos {
         this.zippoPotamPlaces = zippoPotamPlaces;
     }
 
-        //Step 5: toString()
-        
-        
+    //Step 5: toString()
+
+
     @Override
     public String toString() {
         return "ZippoPotamPojos{" +
