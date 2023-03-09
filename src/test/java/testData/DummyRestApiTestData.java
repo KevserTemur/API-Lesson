@@ -1,12 +1,16 @@
 package testData;
 
+import io.cucumber.java.hu.Ha;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DummyRestApiTestData {
-    
+
+
+
     /*
 		Then
 			 Status Code un "200" olduğunu Assert et
@@ -18,9 +22,9 @@ public class DummyRestApiTestData {
             Kullanıcı 21, 23 ve 59 yaşlarında employee olduğunu doğrular
      */
 
-        
-        
-        
+
+
+
     public List<Map<String,Object>> expectedDataList = new ArrayList<>();
 
     public List<Map<String,Object>> setUpDummyRestTestData(){
@@ -57,4 +61,23 @@ public class DummyRestApiTestData {
 
 
     }
+
+    /*
+    {
+    "status": "success",
+    "data": "719",
+    "message": "Successfully! Record has been deleted"
+}
+     */
+
+    public HashMap<String,String> setExpectedDataForDelete(String status,String data,String message){
+
+        HashMap<String,String> expectedData = new HashMap<>();
+        expectedData.put("status",status);
+        expectedData.put("data",data);
+        expectedData.put("message",message);
+
+        return expectedData;
+    }
+
 }
