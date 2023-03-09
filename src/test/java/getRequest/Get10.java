@@ -12,9 +12,10 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItems;
 
-public class get10 extends DummyRestApiBaseURL {
+public class Get10 extends DummyRestApiBaseURL {
 
- /*
+
+    /*
 
     Given
 	   	   https://dummy.restapiexample.com/api/v1/employees
@@ -23,7 +24,7 @@ public class get10 extends DummyRestApiBaseURL {
 			Kullanıcı GET Methodu ile Request Gönderir
 		Then
 			 Status Code un "200" olduğunu Assert et
-		And
+		And               3                             "Ant"
             Kullanıcı en son daki employee nin isminin "Doris Wilder" olduğunu dogrular
         And
             Kullanıcı 6. employee nin salary sinin 372000 olduğunu doğrular
@@ -34,7 +35,7 @@ public class get10 extends DummyRestApiBaseURL {
 
      */
 
-        
+
     @Test
     public void get10(){
 
@@ -57,6 +58,9 @@ public class get10 extends DummyRestApiBaseURL {
 
         DummyRestApiTestData dummyRestApiTestData = new DummyRestApiTestData();
         List<Map<String,Object>> expectedData = dummyRestApiTestData.setUpDummyRestTestData();
+
+        // LİST ---> MAP ---> LİST
+
 
         System.out.println("Expected Data: " + expectedData);
 
@@ -99,10 +103,12 @@ public class get10 extends DummyRestApiBaseURL {
         /*
         GSON
         JsonPath
-        
+
         metotoalrını kullanarak assertion işlemlerini tamamlayınız .
          */
 
 
     }
+
+
 }
