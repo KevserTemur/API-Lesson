@@ -6,8 +6,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-
-public class get01 {
+public class Get01 {
 
 
 
@@ -15,7 +14,7 @@ public class get01 {
     /*
         Bizler bu zamana kadar sizler ile birlikte POSTMAN üzerinde farklı doc. sahip olan
         çeşitli API lere request attık.
-        REq atarken HTTP methodların da GET, POST; PUT, PATCH and DELETE methoslarını kullandık.
+        REq atarken HTTP methodların da GET, POST; PUT, PATCH and DELETE methoslarınınkullandık.
 
 
 
@@ -33,7 +32,7 @@ public class get01 {
 
         Test Case:
 
-         --> Expected Result ( test case den alıyoruz)
+         --> Expected Result  // TEST CASE   Seneayodan alacğaım
 
 
          ---> Actual Result      ====>>>>> Response dan alacağım.
@@ -44,7 +43,7 @@ public class get01 {
             Given ---> testin yapılabilmesi için ön hazırlık/ön şart
             When ---> Action --> Gerçekleştirilecek Eylemler
             Then ---> Assertion için kullanıyoruz
-            And  ---> Öncesinde kullanılan keyword u etkisinin hala devam ettiğini bizlere gösterir.
+            And  ---> Öncesinde kullanılan keyword u etkisinin hala devame titğini bizlere gösterir.
 
      */
 
@@ -71,11 +70,14 @@ public class get01 {
         4 tane adımımız vardır.
 
         1)URL i tanımlamam lazım. URL i set etmem lazım
-        2)Expected data ları tanımlamam lazım. Expected dataları set etmem lazım
-             Expected datalar TEST CASE den alınır. Doc. dan alınır (Şu an için bu step ignore edilecektir.)
-        3)Request Gönder.
-        4)Assertion İşlemi
 
+        2)Expected data ları tanımlamam lazım. Expected dataları set etmem lazım
+        Expected datalar TEST CASE den alınır. Doc. dan alınır (Şu an için bu step ignore edilecektir.)
+
+        3)Request Gönder.  Postman de ki SEND butonu
+
+
+        4)Assertion İşlemi
          */
 
         // Step 1: URL i set ediniz. (https://restful-booker.herokuapp.com/booking/7)
@@ -87,6 +89,9 @@ public class get01 {
 
 
         //Step 3: Request Gönder.
+        //Kullanıcı GET Methodu ile Request Gönderir
+
+
         Response response = given().
                 when().
                 get(URL);
@@ -122,22 +127,31 @@ public class get01 {
 
 
         //Status Code u konsola nasıl yazdırabiliriz?
+
         System.out.println("Status Code: " + response.getStatusCode());
 
         // Contetnt Type ı konsola nasıl yazdırabilirim?
         System.out.println("Content Type: " + response.getContentType());
 
         //Status Line ı nasıl yazdırabilrim
-        System.out.println("Status Line: " + response.getStatusLine());
 
+        System.out.println("Status Line: " + response.getStatusLine());
         //REsponse Time ı nasıl yazdırabilirim
+
         System.out.println("Response Time: " + response.getTime());
 
         //Headers ları konsola nasıl yazdıarbilriim?
-        System.out.println("HEaders: " + response.getHeaders());
+
+        System.out.println("Headers: " + response.getHeaders());
+
+
+
+
 
 
 
 
     }
+
+
 }
