@@ -4,27 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api eksikler">
-      <change afterPath="$PROJECT_DIR$/src/test/java/deleteRequest/Delete01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/deleteRequest/Delete02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get13.java" afterDir="false" />
+    <list default="true" id="5428dc5f-553d-4cf0-9112-9ad56da7b8b9" name="Changes" comment="api dummy">
       <change afterPath="$PROJECT_DIR$/src/test/java/patchRequest/Patch01.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/RestFulBookingPojo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/FirstnameAndLastName.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/testData/TrelloApiTestData.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/trelloAPI/StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/trelloAPI/trelloScenorio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/DummyRestApiBaseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURLs/DummyRestApiBaseURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/GoRestCoBaseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURLs/GoRestCoBaseURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/JsonPlaceHolderBaseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURLs/JsonPlaceHolderBaseURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/RestFullBookerHerOkuAppBaseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURLs/RestFullBookerHerOkuAppBaseURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/SwapiApiBaseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURLs/SwapiApiBaseURL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseURLs/TheMovieDBBaseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURLs/TheMovieDBBaseURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get05.java" afterDir="false" />
@@ -32,24 +24,16 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get13.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/getRequest/get14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getRequest/Get14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojoDatas/CustomerInfoPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/CustomerInfoPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiExPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiExPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/DummyRestApiPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pojoDatas/GoRestCoApiPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/GoRestCoApiPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPlaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPojos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojoDatas/ZippoPotamPojos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/postRequest/Post01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/postRequest/Post02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/postRequest/Post03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/postRequest/Post04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/postRequest/Post04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/putRequest/Put01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/putRequest/Put01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/putRequest/Put02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/putRequest/Put02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testData/DummyRestApiTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/DummyRestApiTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testData/GoRestApiTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/GoRestApiTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/JsonToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonToJava.java" afterDir="false" />
@@ -95,6 +79,12 @@
     "last_opened_file_path": "C:/Users/Pc/IdeaProjects/apiLesson/src/test/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\IdeaProjects\apiLesson\src\test\java" />
+      <recent name="C:\Users\Pc\IdeaProjects\apiLesson\src\test" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="get03" type="TestNG" nameIsGenerated="true">
       <module name="apiLesson" />
@@ -122,27 +112,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677581109004</updated>
-    </task>
-    <task id="LOCAL-00001" summary="api get">
-      <created>1677581586258</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677581586258</updated>
-    </task>
-    <task id="LOCAL-00002" summary="api get">
-      <created>1677607783208</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677607783208</updated>
-    </task>
-    <task id="LOCAL-00003" summary="api get">
-      <created>1677611211671</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677611211671</updated>
     </task>
     <task id="LOCAL-00004" summary="api get">
       <created>1677613907610</created>
@@ -424,15 +393,79 @@
       <option name="project" value="LOCAL" />
       <updated>1678292172581</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="api eksikler">
+      <created>1678292188949</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1678292188949</updated>
+    </task>
+    <task id="LOCAL-00045" summary="api eksikler">
+      <created>1678292220262</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1678292220262</updated>
+    </task>
+    <task id="LOCAL-00046" summary="api get">
+      <created>1678350105383</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350105383</updated>
+    </task>
+    <task id="LOCAL-00047" summary="api get">
+      <created>1678350124600</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350124600</updated>
+    </task>
+    <task id="LOCAL-00048" summary="api get">
+      <created>1678350149901</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350149902</updated>
+    </task>
+    <task id="LOCAL-00049" summary="api dummy">
+      <created>1678350172427</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350172427</updated>
+    </task>
+    <task id="LOCAL-00050" summary="api dummy">
+      <created>1678350187044</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350187045</updated>
+    </task>
+    <task id="LOCAL-00051" summary="api dummy">
+      <created>1678350201082</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350201082</updated>
+    </task>
+    <task id="LOCAL-00052" summary="api dummy">
+      <created>1678350216267</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350216267</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api get01" />
-    <MESSAGE value="api get" />
     <MESSAGE value="api post" />
     <MESSAGE value="api put" />
     <MESSAGE value="api eksikler" />
-    <option name="LAST_COMMIT_MESSAGE" value="api eksikler" />
+    <MESSAGE value="api get" />
+    <MESSAGE value="api dummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="api dummy" />
   </component>
 </project>
