@@ -10,31 +10,31 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertEquals;
 
-public class get06 extends GoRestCoBaseURL {
+public class Get06 extends GoRestCoBaseURL {
 
-        /*
-    
-        Base URL Spec oalrak kullanılmaldıır.
-    
-            Given
-                https://gorest.co.in/public/v2/todos/14071
-            When
-                 Kullanıcı GET Methodu ile Request Gönderir
-            Then
-                Status Code un "200" olduğunu Assert et
-            And
-                Content Type ın "application/json" olduğunu assert et
-            And
-                Response Body nin aşağıdai gibi olduğunu asssert et
-           {
-    "id": 14071,
-    "user_id": 592752,
-    "title": "Pariatur spoliatio odit defaeco uberrime ambulo asperiores velut et eveniet.",
-    "due_on": "2023-03-20T00:00:00.000+05:30",
-    "status": "pending"
-    }
-     */
-        
+    /*
+
+    Base URL Spec olarak kullanılmaldıır.
+
+        Given
+            https://gorest.co.in/public/v2/todos/14071
+        When
+             Kullanıcı GET Methodu ile Request Gönderir
+        Then
+            Status Code un "200" olduğunu Assert et
+		And
+            Content Type ın "application/json" olduğunu assert et
+        And
+            Response Body nin aşağıdai gibi olduğunu asssert et
+       {
+"id": 14071,
+"user_id": 592752,
+"title": "Pariatur spoliatio odit defaeco uberrime ambulo asperiores velut et eveniet.",
+"due_on": "2023-03-20T00:00:00.000+05:30",
+"status": "pending"
+}
+ */
+
     @Test
     public void get06(){
 
@@ -113,5 +113,5 @@ public class get06 extends GoRestCoBaseURL {
 
     }
 
-        
+
 }
