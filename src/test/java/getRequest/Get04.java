@@ -8,10 +8,9 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
+public class Get04 extends JsonPlaceHolderBaseURL {
 
-public class get04 extends JsonPlaceHolderBaseURL{
-
-    /*
+       /*
         Given
             https://jsonplaceholder.typicode.com/users   --> resources farklı
         When
@@ -25,28 +24,35 @@ public class get04 extends JsonPlaceHolderBaseURL{
 
      */
 
+
     @Test
     public void get04(){
 
         /*
         1) Set URL
-        2) Set Expected data
+        2) Set Expected ata
         3) Send a Request
         4) assertion
          */
 
+
+
         //Step 1:    https://jsonplaceholder.typicode.com/users
         specification.pathParam("usersPath","users");
 
+
         //Step 2: Expected data (ignored)
 
+
         //Step 3: Send Request
+
         Response response = given().
                 spec(specification).
                 when().
                 get("/{usersPath}");
 
         response.prettyPrint();  // like syso
+
 
         // Step 4: Assertion
 
@@ -66,6 +72,9 @@ public class get04 extends JsonPlaceHolderBaseURL{
                 body("id", Matchers.hasSize(10));
 
 
-    }
-}
 
+
+
+    }
+
+}
