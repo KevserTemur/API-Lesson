@@ -1,10 +1,10 @@
 package pojoDatas;
 
-
-
 public class GoRestCoApiPojo {
 
- /*
+
+
+    /*
     {
 "id": 724790,
 "name": "Dr. Lalita Rana",
@@ -14,7 +14,7 @@ public class GoRestCoApiPojo {
 }
      */
 
-        
+
     private int id;
     private String name;
     private String email;
@@ -24,7 +24,7 @@ public class GoRestCoApiPojo {
     public GoRestCoApiPojo() {
     }
 
-        
+
     public GoRestCoApiPojo(int id, String name, String email, String gender, String status) {
         this.id = id;
         this.name = name;
@@ -33,7 +33,7 @@ public class GoRestCoApiPojo {
         this.status = status;
     }
 
-        
+
     public int getId() {
         return id;
     }
