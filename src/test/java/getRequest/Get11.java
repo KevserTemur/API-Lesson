@@ -13,9 +13,10 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class get11 extends ApiZippopotamBaseURL {
+public class Get11 extends ApiZippopotamBaseURL {
 
-/*
+
+      /*
 
 
         Given
@@ -45,15 +46,18 @@ public class get11 extends ApiZippopotamBaseURL {
      */
 
     @Test
-    public void get11() {
+    public void get11(){
 
         // Step 1: SEt URL
         //http://api.zippopotam.us/TR/34010
-        specification.pathParams("countryPath", "TR",
-                "postCodePath", "34010");
+        specification.pathParams("countryPath","TR",
+                "postCodePath","34010");
 
 
-        //Step 2: Set Expected Data
+
+
+
+        //Step 2: Set Expected Data   ------------>>>>>>>>>>>>    TEST CASE , Doc.
         /*
          {
     "post code": "34010",
@@ -72,8 +76,8 @@ public class get11 extends ApiZippopotamBaseURL {
          */
 
 
-        ZippoPotamPlaces zippoPotamPlaces = new ZippoPotamPlaces("Maltepe Mah.", "32.3609", "İstanbul", "34", "40.1589");
-        ZippoPotamPojos zippoPotamPojos = new ZippoPotamPojos("34010", "Turkey", "TR", zippoPotamPlaces);
+        ZippoPotamPlaces zippoPotamPlaces = new ZippoPotamPlaces("Maltepe Mah.","32.3609","İstanbul","34","40.1589");
+        ZippoPotamPojos zippoPotamPojos = new ZippoPotamPojos("34010","Turkey","TR",zippoPotamPlaces);
 
         System.out.println("Expected Data: " + zippoPotamPojos);
 
@@ -91,19 +95,54 @@ public class get11 extends ApiZippopotamBaseURL {
  */
 
 
+
         //Step 4: Assertion with GSON
-        Map<String, Object> actualDataMap = response.as(HashMap.class);
+        Map<String,Object> actualDataMap = response.as(HashMap.class);
         System.out.println("Actual Data: " + actualDataMap);
 
         // get("Key")
 
-        assertEquals(zippoPotamPojos.getCountry(), actualDataMap.get("country"));
-        assertEquals(zippoPotamPojos.getPostCode(), actualDataMap.get("post code"));
-        assertEquals(zippoPotamPojos.getCountryAbbreviation(), actualDataMap.get("country abbreviation"));
-        assertEquals(zippoPotamPojos.getZippoPotamPlaces().getPlaceName(), (((Map) ((List) actualDataMap.get("places")).get(0))).get("place name"));
+        assertEquals(zippoPotamPojos.getCountry(),actualDataMap.get("country"));
+        assertEquals(zippoPotamPojos.getPostCode(),actualDataMap.get("post code"));
+        assertEquals(zippoPotamPojos.getCountryAbbreviation(),actualDataMap.get("country abbreviation"));
 
 
-        assertEquals(zippoPotamPojos.getZippoPotamPlaces().getLatitude(), (((Map) ((List) actualDataMap.get("places")).get(0)).get("latitude")));
 
+
+
+
+
+
+
+
+
+
+
+           /*
+         {
+    "places": [    =================>>>>>       ZippoPotamPlaces
+        {
+            "place name": "Maltepe Mah.",
+            "longitude": "32.3609",
+            "state": "İstanbul",
+            "state abbreviation": "34",
+            "latitude": "40.1589"
+        }
+    ]
+}
+         */
+
+
+        assertEquals(zippoPotamPojos.getZippoPotamPlaces().getPlaceName(),(((Map)((List)actualDataMap.get("places")).get(0))).get("place name"));
+
+
+        assertEquals(zippoPotamPojos.getZippoPotamPlaces().getLatitude(),(((Map)((List)actualDataMap.get("places")).get(0)).get("latitude")));
+
+
+        assertEquals(zippoPotamPojos.getZippoPotamPlaces().getLongitude(),((Map)((List)actualDataMap.get("places")).get(0)).get("longitude"));
     }
+
+
+
+
 }
