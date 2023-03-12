@@ -10,9 +10,9 @@ import java.util.HashMap;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class get09 extends JsonPlaceHolderBaseURL{
+public class Get09 extends JsonPlaceHolderBaseURL {
 
-/*
+ /*
 
     Given
 	   	     https://jsonplaceholder.typicode.com/todos/2
@@ -34,7 +34,7 @@ public class get09 extends JsonPlaceHolderBaseURL{
 
      */
 
-        
+
     @Test
     public void get09(){
 
@@ -77,6 +77,23 @@ public class get09 extends JsonPlaceHolderBaseURL{
         assertEquals(expectedData.get("title"),actualData.get("title"));
 
 
+
+        // HOMEWORKS:
+
+        /*
+        JsonPath + SoftAssertion
+        response ile hard assertion   --->> response.then().assertThat()
+         */
+
+
+
+
+
+
+
+
     }
+
+
 
 }
