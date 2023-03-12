@@ -10,38 +10,37 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
-public class get14 extends JsonPlaceHolderBaseURL {
+public class Get14 extends JsonPlaceHolderBaseURL {
 
-        /*
-   
-   
-           Given
-               https://jsonplaceholder.typicode.com/todos/198
-          When
-               Kullanıcı GET Methodu ile Request Gönderir
-           Then
-                Status Code un "200" olduğunu Assert et
-            And
-                Response body nin bu şekilde olduğunu doğrular
-   
-     {
-                                           "userId": 10,
-                                           "id": 198,
-                                           "title": "quis eius est sint explicabo",
-                                           "completed": true
-                                         }
-   
-        */
-        
-        
+     /*
+
+
+        Given
+            https://jsonplaceholder.typicode.com/todos/198
+       When
+			Kullanıcı GET Methodu ile Request Gönderir
+		Then
+			 Status Code un "200" olduğunu Assert et
+ 		And
+ 		    Response body nin bu şekilde olduğunu doğrular
+
+  {
+									    "userId": 10,
+									    "id": 198,
+									    "title": "quis eius est sint explicabo",
+									    "completed": true
+									  }
+
+     */
+
 
     @Test
-    public void get14() {
+    public void get14(){
 
         //Step 1: Set URL
         //https://jsonplaceholder.typicode.com/todos/198
-        specification.pathParams("todosPath", "todos",
-                "idPath", "198");
+        specification.pathParams("todosPath","todos",
+                "idPath","198");
 
 
         //Step 2: Set Expected Data
@@ -56,7 +55,7 @@ public class get14 extends JsonPlaceHolderBaseURL {
 
         System.out.println("ExpectedDataString: " + expectedData);
 
-        HashMap<String, Object> expectedDataMap = JsonToJava.convertJsonToJavaObject(expectedData, HashMap.class);
+        HashMap<String,Object> expectedDataMap = JsonToJava.convertJsonToJavaObject(expectedData,HashMap.class);
         System.out.println("EXPECTED DATA MAP: " + expectedDataMap);
 
         //HOMEWORK:   expected data yı JSONPLACEHOLDERTESTDATA classın da bir tane metot create ediniz.
@@ -72,6 +71,7 @@ public class get14 extends JsonPlaceHolderBaseURL {
         Response response = given().
                 spec(specification).
                 when().
+
                 get("/{todosPath}/{idPath}");
 
         System.out.println("RESPONSE: ");
@@ -85,12 +85,12 @@ public class get14 extends JsonPlaceHolderBaseURL {
         //HashMap<String,Object> actualDataMap =  response.as(HashMap.class);   // ---> NOme Problemooo
 
 
-        //  JsonPath jsonPath = response.jsonPath(); /// ----> NOme Problemooo
+      //  JsonPath jsonPath = response.jsonPath(); /// ----> NOme Problemooo
 
-        //  response.then().assertThat().body(""); /// ---> Nome Problemo
+      //  response.then().assertThat().body(""); /// ---> Nome Problemo
 
 
-        HashMap<String, Object> actualDataMapJSONToJAVA = JsonToJava.convertJsonToJavaObject(response.asString(), HashMap.class);
+       HashMap<String,Object> actualDataMapJSONToJAVA = JsonToJava.convertJsonToJavaObject(response.asString(),HashMap.class);
 
         System.out.println("actualDataMapJSONToJAVA: " + actualDataMapJSONToJAVA);
 
@@ -110,4 +110,6 @@ public class get14 extends JsonPlaceHolderBaseURL {
 
 
     }
+
+
 }
