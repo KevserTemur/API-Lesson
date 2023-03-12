@@ -10,10 +10,9 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertEquals;
 
-public class get08 extends SwapiApiBaseURL {
+public class Get08 extends SwapiApiBaseURL {
 
-    
-    
+
         /*
 
     Given
@@ -68,7 +67,9 @@ public class get08 extends SwapiApiBaseURL {
                 "idPath","4");
 
 
-        //Step 2: Set Expected Data
+        //Step 2: Set Expected Data   --> Test Data   --> Test Case ve ya Test Sce. Dokuman     (Bunları sizler belirliyorsunuz)
+
+        //ACtula Data ---> Response
 
         // Trik 1 ---> Her zaman içeriden başlayın.....
         List<String> filmsList = new ArrayList<>();
@@ -76,7 +77,7 @@ public class get08 extends SwapiApiBaseURL {
         filmsList.add("https://swapi.dev/api/films/5/");
 
         List<String> pilotsList = new ArrayList<>();
-        // System.out.println("pilotsList: " + pilotsList);
+       // System.out.println("pilotsList: " + pilotsList);
 
         /*
         {
@@ -159,7 +160,11 @@ public class get08 extends SwapiApiBaseURL {
 
         // 2. Way
 
+        //         ASERTION       (EXPECTED DATA     ACTUAL DATA      )
+
         Map<String, Object> actualData = response.as(HashMap.class);
+
+        //  ---*> STEP ^teki response
         System.out.println("Actual Data: " + actualData);
 
         /*
@@ -194,6 +199,13 @@ public class get08 extends SwapiApiBaseURL {
          */
 
         assertEquals(expectedDataMap,actualData);
+
+
+
+
+
+
+
 
 
     }
