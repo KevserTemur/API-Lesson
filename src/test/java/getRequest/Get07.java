@@ -10,27 +10,27 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class get07 extends DummyRestApiBaseURL {
+public class Get07 extends DummyRestApiBaseURL {
 
-        /*
-         Given
-                https://dummy.restapiexample.com/api/v1/employees
-         When
-             Kullanıcı GET Methodu ile Request Gönderir
-         Then
-              Status Code un "200" olduğunu Assert et
-         And
-              employee_age i 55'ten büyük olanları konsola yazdırınız.
-              8 tane olduğunu assert ediniz.
-         And
-             id si 17 den büyük olanları konsola yazdırınız
-             7 tane olduğunu assert ediniz.
-         And
-             salary si 100.000'den az olanları konsola yazdırınız.
-             Doris Wilder'ın bunlardan biri olduğunu assert ediniz.
- 
-      */
-        
+       /*
+        Given
+	   	    https://dummy.restapiexample.com/api/v1/employees
+		When
+			Kullanıcı GET Methodu ile Request Gönderir
+		Then
+			 Status Code un "200" olduğunu Assert et
+		And
+		     employee_age i 55'ten büyük olanları konsola yazdırınız.
+		     8 tane olduğunu assert ediniz.
+		And
+            id si 17 den büyük olanları konsola yazdırınız
+            7 tane olduğunu assert ediniz.
+        And
+            salary si 100.000'den az olanları konsola yazdırınız.
+            Doris Wilder'ın bunlardan biri olduğunu assert ediniz.
+
+     */
+
     @Test
     public void get07(){
 
@@ -83,7 +83,7 @@ public class get07 extends DummyRestApiBaseURL {
 
         // Test 1: employee_age
 
-        /*
+
         List<Integer> employeeAges = jsonPath.getList("data.employee_age");
         System.out.println("employeeAges: " + employeeAges);
 
@@ -96,7 +96,7 @@ public class get07 extends DummyRestApiBaseURL {
         System.out.println("Count: " + count);
         assertEquals(8,count);
 
-         */
+
 
 
         // Test 2:  id
@@ -114,5 +114,5 @@ public class get07 extends DummyRestApiBaseURL {
 
     }
 
-        
+
 }
