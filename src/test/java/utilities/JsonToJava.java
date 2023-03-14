@@ -6,13 +6,16 @@ import java.io.File;
 import java.io.IOException;
 
 public class JsonToJava {
+
+
+
     private static ObjectMapper mapper;
 
     static{
         mapper = new ObjectMapper();
     }
 
-        
+
     public static <T> T convertJsonToJavaObject(String json, Class<T> cls){ //Generic
 
         T javaResult = null;
@@ -26,7 +29,7 @@ public class JsonToJava {
         return javaResult;
     }
 
-        
+
     public static <T> T convertJsonToJavaObject(File file, Class<T> cls){
 
         T javaResult = null;
