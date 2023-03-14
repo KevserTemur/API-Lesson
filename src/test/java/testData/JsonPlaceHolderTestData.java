@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class JsonPlaceHolderTestData {
 
-        
+
     public static HashMap<String,Object> expectedData;
 
     public HashMap setUpDataTodos(){
@@ -29,7 +29,7 @@ public class JsonPlaceHolderTestData {
         return expectedData;
     }
 
-        
+
     public HashMap<String,Object> setUpForPutReq(){
 
         /*
@@ -49,4 +49,6 @@ public class JsonPlaceHolderTestData {
 
 
     }
+
+
 }
