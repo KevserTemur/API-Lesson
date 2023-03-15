@@ -17,50 +17,50 @@ import static org.junit.Assert.assertEquals;
 
 public class Post04 {
 
-        
-        /*
-  
-      API Doc. URL ====>>>>>   !!---https://dev.bitpace.com/bitpace-merchant-rest-api#getDepositAddressUsingPOST--!!!
-  
-      Given
-          https://api-sandbox.bitpace.com/api/v1/auth/token adresine POST metodu  ile request atılıp token alınmalı.
-  
-         Kullanılacak Request Body:
-              {
-      "merchant_code":"20625123425",
-      "password":"a1a82a55-8355-46f1-9a95-3cd9adce495b"
-  }
-  
-  
-      Token alındıktan sonra aşğaıdaki işlemlere geçebiliriz.
-          https://api-sandbox.bitpace.com/api/v1/customer/deposit/address
-  
-          **Alınan Token Headers ta Bearer Auth. olarak gçnderilecektir.**
-  
-      When
-         Kullanıcı POST metodu ile request atar
-  
-         Kullanılacak Request Body:
-          {
-      "cryptocurrency": "BTC",
-      "customer": {
-          "reference_id": "20625123425",
-          "first_name":"",
-          "last_name":"",
-          "email":"drakeF@gmail.com"
-      }
-  }
-      Then
-          Kullanıcı "Deposit Adress Creat" edildiğini verify eder.
-          Expected message "Response Approved" içermeli
-  
-       */
-        
-        // https://dev.bitpace.com/bitpace-merchant-rest-api  adresine giderek
-        //customer deposit adress gerçekleştiriniz.
-        
-        
-        
+
+      /*
+
+    API Doc. URL ====>>>>>   !!---https://dev.bitpace.com/bitpace-merchant-rest-api#getDepositAddressUsingPOST--!!!
+
+    Given
+        https://api-sandbox.bitpace.com/api/v1/auth/token adresine POST metodu  ile request atılıp token alınmalı.
+
+       Kullanılacak Request Body:
+            {
+    "merchant_code":"20625123425",
+    "password":"a1a82a55-8355-46f1-9a95-3cd9adce495b"
+}
+
+
+    Token alındıktan sonra aşğaıdaki işlemlere geçebiliriz.
+        https://api-sandbox.bitpace.com/api/v1/customer/deposit/address
+
+        **Alınan Token Headers ta Bearer Auth. olarak gçnderilecektir.**
+
+    When
+       Kullanıcı POST metodu ile request atar
+
+       Kullanılacak Request Body:
+        {
+    "cryptocurrency": "BTC",
+    "customer": {
+        "reference_id": "20625123425",
+        "first_name":"",
+        "last_name":"",
+        "email":"drakeF@gmail.com"
+    }
+}
+    Then
+        Kullanıcı "Deposit Adress Creat" edildiğini verify eder.
+        Expected message "Response Approved" içermeli
+
+     */
+
+    // https://dev.bitpace.com/bitpace-merchant-rest-api  adresine giderek
+    //customer deposit adress gerçekleştiriniz.
+
+
+
     // https://api-sandbox.bitpace.com/api/v1
     String URL = "https://api-sandbox.bitpace.com/api/v1/";
     public String token;
@@ -68,7 +68,7 @@ public class Post04 {
     @Before
     //@Test
     public void postforToken(){
-        //Bu metot işlemlerimi yapabilmek için
+    //Bu metot işlemlerimi yapabilmek için
         //token create eden bir metotdur.
 
         //Set URL,
@@ -79,17 +79,17 @@ public class Post04 {
         BitPaceGetToken bitPaceGetToken = new BitPaceGetToken();
         Map<String,String> reqBodyMap = bitPaceGetToken.reqTestDataBody();
 
-        // System.out.println("ReqBodyMap: " + reqBodyMap);
+       // System.out.println("ReqBodyMap: " + reqBodyMap);
 
 
         //Send a Request
         Response response = given().
                 contentType(ContentType.JSON).
-                body(reqBodyMap).//merhac doe and paasword
-                        when().
+                body(reqBodyMap).//merhac code and paasword
+                when().
                 post(URLForToken);
-        // System.out.println("Response: ");
-        // response.prettyPrint();
+       // System.out.println("Response: ");
+       // response.prettyPrint();
 
 
         //Step 4: Assertion
@@ -174,5 +174,14 @@ public class Post04 {
 
         assertEquals("Response Approved",actualDataFromRESPONSE.get("message"));
 
+
+
+
+
+
     }
+
+
+
+
 }
