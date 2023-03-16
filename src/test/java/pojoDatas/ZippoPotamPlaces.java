@@ -1,8 +1,12 @@
 package pojoDatas;
 
 public class ZippoPotamPlaces {
-    
-     /*
+
+
+
+
+
+      /*
     "places": [
         {
             "place name": "Maltepe Mah.",
@@ -15,18 +19,31 @@ public class ZippoPotamPlaces {
 }
          */
 
-        /*
-        POJO: Plain Old Java Object
-    
-        Expected Data veya Actual Dataları depolamak için yani tutmak için kullanıyoruz.
-    
-        1)Fieldlar ----> Var.     PRIVATE   -------> Her bir json için
-        2)Parametresiz Constructor
-        3)Parametreli Constructor
-        4)Gettter and Setter
-        5) toString()
+    /*
+    POJO: Plain Old Java Object
+
+    Expected Data veya Actual Dataları depolamak için yani tutmak için kullanıyoruz.
+
+    1)Fieldlar ----> Var.     PRIVATE   -------> Her bir json için
+    2)Parametresiz Constructor
+    3)Parametreli Constructor
+    4)Gettter and Setter
+    5) toString()
+     */
+
+       /*
+    "places": [
+        {
+            "place name": "Maltepe Mah.",
+            "longitude": "32.3609",
+            "state": "İstanbul",
+            "state abbreviation": "34",
+            "latitude": "40.1589"
+        }
+    ]
+}
          */
-        
+
     private String placeName;
     private String longitude;
     private String state;
@@ -44,7 +61,7 @@ public class ZippoPotamPlaces {
         this.latitude = latitude;
     }
 
-        
+
     public String getPlaceName() {
         return placeName;
     }
