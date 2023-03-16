@@ -6,9 +6,9 @@ import org.junit.Before;
 
 public class TheMovieDBBaseURL {
 
-        
-        // https://api.themoviedb.org/3      ===,> BASE URL
-        
+
+    // https://api.themoviedb.org/3      ===,> BASE URL
+
     protected RequestSpecification specification;
 
     @Before
